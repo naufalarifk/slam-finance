@@ -38,7 +38,7 @@ export default function MobileMenu() {
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
-      className="h-screen bg-gradient-to-b from-emerald-700 to-emerald-900 z-10"
+      className="h-screen bg-gradient-to-b from-emerald-700 via-emerald-800 to-emerald-900 z-10"
     >
       <List className="flex flex-col ">
         {["home", "protocol", "governance", "voting","docs"].map((text, index) => (
